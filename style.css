@@ -1,7 +1,29 @@
 .flex-body {
-  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-.grid-body {
-  background-color: palevioletred;
+.flex-header {
+  background-color: lightslategray;
+}
+
+.flex-footer {
+  background-color: lightslategray;
+}
+
+.content-flex-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-content-flex {
+  background-color: olivedrab;
+}
+.center-content-flex {
+  background-color: lightskyblue;
+}
+.right-content-flex {
+  background-color: olivedrab;
 }
