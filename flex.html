@@ -5,7 +5,9 @@
     <link rel="stylesheet" type="text/css" href="flex-style.css" />
   </head>
   <body>
-    <header>Suspicio? Bene ... tunc ibimus? Quis uh ... Header</header>
+    <header>
+      <h1>Header</h1>
+    </header>
     <div class="content-body">
       <div class="left-content">
         <p>
@@ -16,16 +18,42 @@
         </p>
       </div>
       <div class="center-content">
-        <p>
-          Suus satis. Quod etiam optime. Vos ite post eum, fistulae, nunquam
-          vivum exire ab ea. Sed cum hoc ... excidit tibi in cibo aut in potu,
-          aut: olefac Elegantioris non sit ... triginta sex horae post ... Poof.
-          Vir aetatis operantes, dura sicut facit ... nemo mirabatur. Mike
-          suspectas habere possunt, sed quod omnes illi eris. Obsecro, unum
-          homicidam maniaco tempore. Ecce dabo Pinkman Isai OK? Sicut locutus
-          est tibi, et datus est, et hic sine Semper consequat volumus ... et
-          ille in urbe ista licet?
-        </p>
+        <h1>Enter Information Here:</h1>
+        <form>
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" required />
+          <br />
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required />
+          <br />
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" required />
+          <br />
+          <label for="classroom">Select your classroom:</label>
+          <select name="classroom" id="classroom" required>
+            <option value="Room A">Room A</option>
+            <option value="Room B">Room B</option>
+            <option value="Room C">Room C</option>
+            <option value="Room D">Room D</option>
+            <option value="Room E">Room E</option>
+          </select>
+          <br />
+          Select one ball below:
+          <br />
+          <label for="basketball">Basketball</label>
+          <input type="radio" name="ball" id="basketball" required />
+          <br />
+          <label for="basketball">Tennis Ball</label>
+          <input type="radio" name="ball" id="basketball" required />
+          <br />
+          <label for="basketball">Soccer Ball</label>
+          <input type="radio" name="ball" id="basketball" required />
+          <br />
+          <label for="football">Football</label>
+          <input type="radio" name="ball" id="football" required />
+          <br />
+          <input type="submit" formaction="random.html" value="Submit" />
+        </form>
       </div>
       <div class="right-content">
         <p>
@@ -36,6 +64,8 @@
         </p>
       </div>
     </div>
-    <footer>Suspicio? Bene ... tunc ibimus? Quis uh ... Footer</footer>
+    <footer>
+      <h1>Footer</h1>
+    </footer>
   </body>
 </html>

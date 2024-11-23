@@ -14,11 +14,13 @@ body {
 header {
   background-color: salmon;
   height: 100px;
+  flex-shrink: 0;
 }
 
 footer {
   background-color: salmon;
   height: 100px;
+  flex-shrink: 0;
 }
 
 .content-body {
@@ -29,7 +31,7 @@ footer {
 
 .left-content {
   background-color: olivedrab;
-  flex: 0 0 200px;
+  flex: 1 1 200px;
   border: 1px solid black;
 }
 
@@ -40,7 +42,7 @@ footer {
 }
 
 .right-content {
-  flex: 0 0 200px;
+  flex: 1 1 200px;
   background-color: olivedrab;
   border: 1px solid black;
 }
