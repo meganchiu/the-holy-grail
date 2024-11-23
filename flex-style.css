@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-size: 30px;
+  background-color: bisque;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: salmon;
+  height: 100px;
+}
+
+footer {
+  background-color: salmon;
+  height: 100px;
+}
+
+.content-body {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.left-content {
+  background-color: olivedrab;
+  flex: 0 0 200px;
+  border: 1px solid black;
+}
+
+.center-content {
+  background-color: orange;
+  flex: 2 2 0;
+  border: 1px solid black;
+}
+
+.right-content {
+  flex: 0 0 200px;
+  background-color: olivedrab;
+  border: 1px solid black;
+}
